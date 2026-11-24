@@ -1,0 +1,57 @@
+# ==========================================
+# Datasets & Data Files
+# ==========================================
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+hidf_data.zip
+patch_detector/hidf_data.zip
+Fake-img/
+Real-img/
+hidf_clean_source_manifest.csv
+data/
+dataset/
+datasets/
+raw_data/
+
+# ==========================================
+# Large Model Weights & Checkpoints (exceeds GitHub limits)
+# ==========================================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.h5
+checkpoints/
+Output/checkpoints/
+
+# ==========================================
+# Python & Jupyter Notebooks
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
